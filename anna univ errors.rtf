@@ -1,0 +1,228 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Consolas;}{\f2\fnil\fcharset0 Consolas;}}
+{\colortbl ;\red0\green102\blue204;\red0\green0\blue255;\red220\green10\blue86;}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 test case 1\par
+anna univ home\par
+errors:\par
+\f1\fs20 =============== ROOT CAUSE =====================\par
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img alt="..." src="images/main-slider/slide1.jpeg"> is not clickable at point (456, 627). Other element would receive the click: <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">...</div>\par
+\par
+For trouble shooting, please visit: {\cf1\ul{\field{\*\fldinst{HYPERLINK https://docs.katalon.com/katalon-studio/docs/troubleshooting.html }}{\fldrslt{https://docs.katalon.com/katalon-studio/docs/troubleshooting.html}}}}\f1\fs20\par
+================================================\par
+\par
+06-12-2024 11:35:08 am Test Cases/anna university/home\par
+\par
+Elapsed time: 1m - 5.616s\par
+\par
+Test Cases/anna university/home FAILED.\par
+Reason:\par
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object '\cf1\ul Object Repository/annauniv home/Page_Anna University, Chennai/img\cf0\ulnone '\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)\par
+\tab at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\par
+\tab at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)\par
+\tab at home.run(home:28)\par
+\tab at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\par
+\tab at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\par
+\tab at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)\par
+\tab at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:128)\par
+\tab at TempTestCase1718172304272.run(TempTestCase1718172304272.groovy:25)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img alt="..." src="images/main-slider/slide1.jpeg"> is not clickable at point (456, 627). Other element would receive the click: <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">...</div>\par
+  (Session info: chrome=125.0.6422.144)\par
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'\par
+System info: host: 'DESKTOP-IGAKP0U', ip: '20.23.0.122', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'\par
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver\par
+Capabilities \{acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.144, chrome: \{chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\\Users\\RUSA-L~1\\AppData\\L...\}, fedcm:accounts: true, goog:chromeOptions: \{debuggerAddress: localhost:56776\}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: \{implicit: 0, pageLoad: 300000, script: 30000\}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true\}\par
+Session ID: decc146706cba1bfa40f2fd12e5de6e7\par
+\tab at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\par
+\tab at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\par
+\tab at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\par
+\tab at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\par
+\tab at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\par
+\tab at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\par
+\tab at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\par
+\tab at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+\tab at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)\par
+\tab at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)\par
+\tab at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)\par
+\tab at org.openqa.selenium.WebElement$click.call(Unknown Source)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\par
+\tab ... 18 more\par
+\par
+\par
+\par
+\f2\lang1033 testcase 2\par
+anna univ - academic\par
+\f1 2024-06-12 12:13:58.570 INFO  c.k.k.core.main.WSVerificationExecutor   - --------------------\par
+2024-06-12 12:13:58.572 INFO  c.k.k.core.main.WSVerificationExecutor   - START Verification\par
+2024-06-12 12:13:58.744 DEBUG testcase.                                - 1: openBrowser("")\par
+2024-06-12 12:14:12.745 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7969b71b3d899c7a45cf43ceccf460dc\par
+2024-06-12 12:14:12.761 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 125\par
+2024-06-12 12:14:12.762 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11\par
+2024-06-12 12:14:12.762 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59\par
+2024-06-12 12:14:12.766 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation \{ proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true \}\par
+[FINE] No subscribers registered for event class com.kms.katalon.core.event.TestingEvent\par
+[FINE] No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent\par
+2024-06-12 12:14:12.782 DEBUG testcase.                                - 2: navigateToUrl("https://annauniv.edu/")\par
+2024-06-12 12:14:13.468 DEBUG testcase.                                - 3: click(findTestObject("Page_Anna University, Chennai/a_Departments"))\par
+\cf3 2024-06-12 12:14:13.481 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/Page_Anna University, Chennai/a_Departments' does not exist\cf0\par
+\cf3 2024-06-12 12:14:13.502 WARN  c.k.k.core.testobject.ObjectRepository   - Test object with id 'Object Repository/' does not exist\cf0\par
+\cf3 2024-06-12 12:14:13.821 ERROR c.k.k.core.keyword.internal.KeywordMain  - ? Unable to click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)\cf0\par
+\cf3\tab at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)\cf0\par
+\cf3\tab at WSVerification1718174638627.run(WSVerification1718174638627:23)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:180)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:174)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:157)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:149)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:131)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.TestCaseMain.runWSVerificationScript(TestCaseMain.java:150)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.TestCaseMain$runWSVerificationScript$0.call(Unknown Source)\cf0\par
+\cf3\tab at TempTestCase1718174628998.run(TempTestCase1718174628998.groovy:25)\cf0\par
+\cf3\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\cf0\par
+\cf3\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\cf0\par
+\cf3\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\cf0\par
+\cf3 Caused by: java.lang.IllegalArgumentException: Object is null\cf0\par
+\cf3\tab at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\cf0\par
+\cf3\tab ... 19 more\cf0\par
+\cf3 )\cf0\par
+\cf3 2024-06-12 12:14:13.825 ERROR c.k.k.core.main.WSVerificationExecutor   - ? Verification FAILED.\cf0\par
+\cf3 Reason:\cf0\par
+\cf3 com.kms.katalon.core.exception.StepFailedException: Unable to click on object\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)\cf0\par
+\cf3\tab at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)\cf0\par
+\cf3\tab at WSVerification1718174638627.run(WSVerification1718174638627:23)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:180)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:174)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:157)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:149)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:131)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.TestCaseMain.runWSVerificationScript(TestCaseMain.java:150)\cf0\par
+\cf3\tab at com.kms.katalon.core.main.TestCaseMain$runWSVerificationScript$0.call(Unknown Source)\cf0\par
+\cf3\tab at TempTestCase1718174628998.run(TempTestCase1718174628998.groovy:25)\cf0\par
+\cf3\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\cf0\par
+\cf3\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\cf0\par
+\cf3\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\cf0\par
+\cf3 Caused by: java.lang.IllegalArgumentException: Object is null\cf0\par
+\cf3\tab at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\cf0\par
+\cf3\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\cf0\par
+\cf3\tab ... 19 more\par
+\par
+\cf0\f2 testcase 2\par
+anna univ - admission\par
+\par
+\f1 =============== ROOT CAUSE =====================\par
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img alt="..." src="images/main-slider/slide1.jpeg"> is not clickable at point (456, 627). Other element would receive the click: <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">...</div>\par
+\par
+For trouble shooting, please visit: {\cf1\ul{\field{\*\fldinst{HYPERLINK https://docs.katalon.com/katalon-studio/docs/troubleshooting.html }}{\fldrslt{https://docs.katalon.com/katalon-studio/docs/troubleshooting.html}}}}\f1\fs20\par
+================================================\par
+\par
+06-12-2024 11:35:08 am Test Cases/anna university/home\par
+\par
+Elapsed time: 1m - 5.616s\par
+\par
+Test Cases/anna university/home FAILED.\par
+Reason:\par
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object '\cf1\ul Object Repository/annauniv home/Page_Anna University, Chennai/img\cf0\ulnone '\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)\par
+\tab at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\par
+\tab at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)\par
+\tab at home.run(home:28)\par
+\tab at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\par
+\tab at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\par
+\tab at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)\par
+\tab at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:128)\par
+\tab at TempTestCase1718172304272.run(TempTestCase1718172304272.groovy:25)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img alt="..." src="images/main-slider/slide1.jpeg"> is not clickable at point (456, 627). Other element would receive the click: <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">...</div>\par
+  (Session info: chrome=125.0.6422.144)\par
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'\par
+System info: host: 'DESKTOP-IGAKP0U', ip: '20.23.0.122', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'\par
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver\par
+Capabilities \{acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.144, chrome: \{chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\\Users\\RUSA-L~1\\AppData\\L...\}, fedcm:accounts: true, goog:chromeOptions: \{debuggerAddress: localhost:56776\}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: \{implicit: 0, pageLoad: 300000, script: 30000\}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true\}\par
+Session ID: decc146706cba1bfa40f2fd12e5de6e7\par
+\tab at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\par
+\tab at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\par
+\tab at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\par
+\tab at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\par
+\tab at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\par
+\tab at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\par
+\tab at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\par
+\tab at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+\tab at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)\par
+\tab at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)\par
+\tab at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)\par
+\tab at org.openqa.selenium.WebElement$click.call(Unknown Source)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\par
+\tab ... 18 more\par
+\par
+\par
+\f2\par
+\f0\fs22\lang9\par
+}
+ 

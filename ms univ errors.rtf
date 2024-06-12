@@ -1,0 +1,224 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Consolas;}}
+{\colortbl ;\red0\green102\blue204;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 test case 1\par
+home\par
+\f1\fs20 =============== ROOT CAUSE =====================\par
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable\par
+At object: '\cf1\ul Object Repository/MS HOME/Page_Manonmaniam Sundaranar University/div_Notification for IIPM and YGEN Students_991c7b\cf0\ulnone '\par
+\par
+For trouble shooting, please visit: {\cf1\ul{\field{\*\fldinst{HYPERLINK https://docs.katalon.com/katalon-studio/docs/troubleshooting.html }}{\fldrslt{https://docs.katalon.com/katalon-studio/docs/troubleshooting.html}}}}\f1\fs20\par
+================================================\par
+\par
+06-12-2024 12:32:54 pm Test Cases/MS UNIV/HOME\par
+\par
+Elapsed time: 49.016s\par
+\par
+Test Cases/MS UNIV/HOME FAILED.\par
+Reason:\par
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object '\cf1\ul Object Repository/MS HOME/Page_Manonmaniam Sundaranar University/div_Notification for IIPM and YGEN Students_991c7b\cf0\ulnone '\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)\par
+\tab at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\par
+\tab at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)\par
+\tab at HOME.run(HOME:30)\par
+\tab at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\par
+\tab at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\par
+\tab at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)\par
+\tab at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:128)\par
+\tab at TempTestCase1718175771025.run(TempTestCase1718175771025.groovy:25)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable\par
+  (Session info: chrome=125.0.6422.144)\par
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'\par
+System info: host: 'DESKTOP-IGAKP0U', ip: '20.23.0.122', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'\par
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver\par
+Capabilities \{acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.144, chrome: \{chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\\Users\\RUSA-L~1\\AppData\\L...\}, fedcm:accounts: true, goog:chromeOptions: \{debuggerAddress: localhost:51670\}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: \{implicit: 0, pageLoad: 300000, script: 30000\}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true\}\par
+Session ID: 050feb81f341a1b714b66bf5304e885b\par
+\tab at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\par
+\tab at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\par
+\tab at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\par
+\tab at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\par
+\tab at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\par
+\tab at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\par
+\tab at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+\tab at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)\par
+\tab at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)\par
+\tab at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)\par
+\tab at org.openqa.selenium.WebElement$click.call(Unknown Source)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\par
+\tab ... 18 more\par
+\f0\fs22\par
+test case 2\par
+academic\par
+\f1\fs20 =============== ROOT CAUSE =====================\par
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable\par
+At object: '\cf1\ul Object Repository/ms academic/Page_Manonmaniam Sundaranar University/p_Professor T.S.Natarajan Award\cf0\ulnone '\par
+\par
+For trouble shooting, please visit: {\cf1\ul{\field{\*\fldinst{HYPERLINK https://docs.katalon.com/katalon-studio/docs/troubleshooting.html }}{\fldrslt{https://docs.katalon.com/katalon-studio/docs/troubleshooting.html}}}}\f1\fs20\par
+================================================\par
+\par
+06-12-2024 12:41:32 pm Test Cases/MS UNIV/academic\par
+\par
+Elapsed time: 12.334s\par
+\par
+Test Cases/MS UNIV/academic FAILED.\par
+Reason:\par
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object '\cf1\ul Object Repository/ms academic/Page_Manonmaniam Sundaranar University/p_Professor T.S.Natarajan Award\cf0\ulnone '\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)\par
+\tab at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\par
+\tab at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)\par
+\tab at academic.run(academic:26)\par
+\tab at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\par
+\tab at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\par
+\tab at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)\par
+\tab at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:128)\par
+\tab at TempTestCase1718176289822.run(TempTestCase1718176289822.groovy:25)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable\par
+  (Session info: chrome=125.0.6422.144)\par
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'\par
+System info: host: 'DESKTOP-IGAKP0U', ip: '20.23.0.122', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'\par
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver\par
+Capabilities \{acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.144, chrome: \{chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\\Users\\RUSA-L~1\\AppData\\L...\}, fedcm:accounts: true, goog:chromeOptions: \{debuggerAddress: localhost:53828\}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: \{implicit: 0, pageLoad: 300000, script: 30000\}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true\}\par
+Session ID: 67624df406481bb0d557a4e4db0baa61\par
+\tab at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\par
+\tab at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\par
+\tab at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\par
+\tab at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\par
+\tab at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\par
+\tab at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\par
+\tab at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+\tab at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)\par
+\tab at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)\par
+\tab at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)\par
+\tab at org.openqa.selenium.WebElement$click.call(Unknown Source)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\par
+\tab ... 18 more\par
+\par
+\par
+\f0\fs22 test case 3\par
+admission\par
+\f1\fs20 =============== ROOT CAUSE =====================\par
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable\par
+At object: '\cf1\ul Object Repository/ms admission/Page_Manonmaniam Sundaranar University/a_Programmes Offered\cf0\ulnone '\par
+\par
+For trouble shooting, please visit: {\cf1\ul{\field{\*\fldinst{HYPERLINK https://docs.katalon.com/katalon-studio/docs/troubleshooting.html }}{\fldrslt{https://docs.katalon.com/katalon-studio/docs/troubleshooting.html}}}}\f1\fs20\par
+================================================\par
+\par
+06-12-2024 12:47:06 pm Test Cases/MS UNIV/admission\par
+\par
+Elapsed time: 11.629s\par
+\par
+Test Cases/MS UNIV/admission FAILED.\par
+Reason:\par
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object '\cf1\ul Object Repository/ms admission/Page_Manonmaniam Sundaranar University/a_Programmes Offered\cf0\ulnone '\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)\par
+\tab at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\par
+\tab at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)\par
+\tab at admission.run(admission:26)\par
+\tab at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\par
+\tab at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\par
+\tab at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\par
+\tab at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)\par
+\tab at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:128)\par
+\tab at TempTestCase1718176622916.run(TempTestCase1718176622916.groovy:25)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable\par
+  (Session info: chrome=125.0.6422.144)\par
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'\par
+System info: host: 'DESKTOP-IGAKP0U', ip: '20.23.0.122', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'\par
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver\par
+Capabilities \{acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.144, chrome: \{chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\\Users\\RUSA-L~1\\AppData\\L...\}, fedcm:accounts: true, goog:chromeOptions: \{debuggerAddress: localhost:54018\}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: \{implicit: 0, pageLoad: 300000, script: 30000\}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true\}\par
+Session ID: 7e6a93e0c429359890adeaaadb69a56a\par
+\tab at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\par
+\tab at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\par
+\tab at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\par
+\tab at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\par
+\tab at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\par
+\tab at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\par
+\tab at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\par
+\tab at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+\tab at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)\par
+\tab at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)\par
+\tab at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)\par
+\tab at org.openqa.selenium.WebElement$click.call(Unknown Source)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\par
+\tab at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\par
+\tab at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)\par
+\tab at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\par
+\tab at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\par
+\tab ... 18 more\par
+\f0\fs22\par
+\par
+\par
+}
+ 
